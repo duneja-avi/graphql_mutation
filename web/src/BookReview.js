@@ -38,7 +38,7 @@ mutation CreateReview($reviewInput: ReviewInput!){
 
 const isInputValid = reviewInput => {
   const { count, name, email } = reviewInput;
-  return count > 0 && count < 6 && name && EmailValidator.validate(email);
+ return count > 0 && count < 6 && name && EmailValidator.validate(email);
 };
 
 class BookReview extends Component {
