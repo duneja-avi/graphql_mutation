@@ -16,7 +16,7 @@
   "author": "James Moore",
   "license": "ISC",
   "dependencies": {
-    "apollo-server-express": "^1.3.4",
+    "apollo-server-express": "^2.14.2",
     "axios": "^0.18.1",
     "base-64": "^0.1.0",
     "body-parser": "^1.18.2",
